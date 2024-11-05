@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <span class="">
+    </span>
+    <div class="flex justify-center">
+        <div class="grid grid-rows-3 grid-cols-3">
+            <div class="w-24  h-20 border border-black border-t-0 border-l-0 text-[3.5rem] flex justify-center" dataCell="0" id="data-cell"></div>
+            <div class="w-24  h-20 border border-black border-t-0 text-[3.5rem] flex justify-center" dataCell="1" id="data-cell"></div>
+            <div class="w-24  h-20 border border-black border-t-0 border-r-0 text-[3.5rem] flex justify-center" dataCell="2" id="data-cell"></div>
+            <div class="w-24 h-20 border border-black  border-l-0 text-[3.5rem] flex justify-center" dataCell="3" id="data-cell"></div>
+            <div class="w-24  h-20 border border-black text-[3.5rem] flex justify-center" dataCell="4" id="data-cell"></div>
+            <div class="w-24  h-20 border border-black border-r-0 text-[3.5rem] flex justify-center" dataCell="5" id="data-cell"></div>
+            <div class="w-24 h-20 border border-black border-l-0 border-b-0 text-[3.5rem] flex justify-center" dataCell="6" id="data-cell"></div>
+            <div class="w-24  h-20 border border-black border-b-0 text-[3.5rem] flex justify-center" dataCell="7" id="data-cell"></div>
+            <div class="w-24  h-20 border border-black border-r-0 border-b-0 text-[3.5rem] flex justify-center" dataCell="8" id="data-cell"></div>
+        </div>
+    </div>
+    <div id="game-status"></div>
+    <button class="border border-black mx-16 mt-16 p-2 rounded-lg" id="restart-button">Restart Game</button>
+    <script src="./script.js"></script>
+</body>
+
+</html>
